@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">BlogPost</string>
+    <string name="text_name">LOGIN</string>
+    <string name="text_name2">SIGN\UP</string>
+    <string name="text_hint_mail">Enter the email</string>
+    <string name="text_hint_pass">Enter the password</string>
+    <string name="text_hint_pass1">Confirm password</string>
+    <string name="text_name1">Don\'t have an Account? Sign up</string>
+    <string name="action_search_text">Search</string>
+    <string name="action_account_text">Account Setting</string>
+    <string name="action_logout_text">Logout</string>
+    <string name="start_Login_text">LOGIN</string>
+    <string name="start_Sign_up_text">SIGN\UP</string>
+    <string name="text_name3">Enter your name</string>
+    <string name="text_name5">Choose profile image</string>
+    <string name="text_name6">Change profile image</string>
+    <string name="text_name7">Change your name</string>
+    <string name="text_name20">Upload image</string>
+
+    <string name="text_name15">ADD DESCRIPTION...</string>
+    <string name="text_name4">DONE</string>
+    <string name="text_name41">POST</string>
+    <string name="text_name14">SAVE IMAGE</string>
+    <string name="bottom_home_text">Home</string>
+    <string name="bottom_notification_text">About</string>
+    <string name="bottom_ac_text">Account</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

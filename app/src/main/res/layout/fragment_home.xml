@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeFragment">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/blog_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:stackFromEnd="false">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="bottom|end"
+            android:layout_marginStart="324dp"
+            android:layout_marginTop="188dp"
+            android:background="@drawable/float_btn"
+            android:src="@drawable/fab_add"
+            app:fabCustomSize="80dp"
+            app:fab_colorNormal="#ff0000"
+            app:fab_colorPressed="#DA4336"
+            app:fab_colorRipple="#99FFFFFF"
+            app:fab_label=""
+            app:fab_shadowColor="#DA4336"
+            app:fab_shadowRadius="5dp"
+
+            app:fab_shadowXOffset="1dp"
+            app:fab_shadowYOffset="3dp"
+            app:fab_showShadow="true"
+            app:fab_size="normal"
+            app:layout_constraintBottom_toBottomOf="@+id/bottom_navigation"
+            app:layout_constraintStart_toStartOf="@+id/main_toolbar"
+            app:layout_constraintTop_toTopOf="@+id/main_toolbar"
+            app:layout_constraintVertical_bias="0.838" />
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "608443194827",
+    "firebase_url": "https://minipro-bea13.firebaseio.com",
+    "project_id": "minipro-bea13",
+    "storage_bucket": "minipro-bea13.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:608443194827:android:31b5ea96a85d73e0",
+        "android_client_info": {
+          "package_name": "com.example.mineproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "608443194827-va40k8oeuoqk1pp1nh8409usddd5scsh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsjG2aY3MLCYdYKl3hwwPCEru7oRh8GtA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
