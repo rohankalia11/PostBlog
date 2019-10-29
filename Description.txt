@@ -1,0 +1,12 @@
+Post blog is an application which is developed by Mr Rohan Kalia.
+
+This Application is developed in Android studio using java language.
+
+
+#Requirements
+1. System with 4GB RAM 60GB Hard disk minimum.  
+2. Android studio
+3. Internet
+4. Android Phone
+
+Compatible Android version to run the application.
